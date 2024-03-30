@@ -1,0 +1,21 @@
+Agenda:
+
+1 - setup the github {Repository}
+    a) new environment
+    b) project structure (setup.py)
+    c) requirements.txt
+
+
+2. How to create virtual environment with conda and activate also specific version of python
+    - conda create -p venv python==3.8 -y
+    - activate: conda activate venv/ 
+
+3. setup.py
+    - It will be responsible creating my machine laerning application as a package.
+    - With the help of setup.py I will be able to build my entire machine learning application as a package and even deploy in PiPi
+    - Purpose of get_requirements function:--
+        This function is commonly used in Python projects to dynamically retrieve dependencies listed in a requirements.
+        txt file and pass them to the install_requires parameter of the setup() function when using tools like setuptools 
+        for packaging and distribution.
+
+4. src folder for build the package
